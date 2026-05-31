@@ -22,3 +22,7 @@ Thumbs.db
 
 # local UI audit screenshots
 .ui-audit/
+
+# Agent skills (local only)
+.agents/
+skills-lock.json
