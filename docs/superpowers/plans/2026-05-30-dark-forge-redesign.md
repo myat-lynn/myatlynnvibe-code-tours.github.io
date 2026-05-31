@@ -824,7 +824,8 @@ const chHref = (num: number) => localizedPath(`/curriculum/ch-${num}`, locale);
   <p class="mt-3">
     <span
       class="inline-block rounded-full border border-accent-500/20 bg-accent-500/10 px-3 py-1 text-sm font-semibold text-accent-500"
-      >{s.startDate}</span>
+      >{s.startDate}</span
+    >
   </p>
   <p class="mt-4 max-w-prose text-lg text-gray-400">{s.intro}</p>
   <div class="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold">

@@ -66,7 +66,10 @@ const githubHandle = z.preprocess((v) => {
 const optSkills = z.preprocess((v) => {
   if (Array.isArray(v)) return v.map((s) => String(s).trim()).filter(Boolean);
   if (typeof v === "string") {
-    const parts = v.split(/[,;]/).map((s) => s.trim()).filter(Boolean);
+    const parts = v
+      .split(/[,;]/)
+      .map((s) => s.trim())
+      .filter(Boolean);
     return parts.length ? parts : undefined;
   }
   return undefined;
