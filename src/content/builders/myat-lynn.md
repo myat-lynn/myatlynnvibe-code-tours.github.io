@@ -5,7 +5,6 @@ cohort: 1
 role: builder
 skills: ["PMP", "Python", "Claude Code"]
 x: your-x-handle
-
 ---
 
 Hi everyone! I'm Myat Lynn from Myanmar. I'm excited to join this cohort because I want to learn how to turn ideas into working products faster using AI and modern development tools.
